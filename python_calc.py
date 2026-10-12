@@ -51,6 +51,7 @@ def show_menu():
 
 
 def main():
+    print("Welcome to my calculator!")
     while True:
         show_menu()
         choice = input("Choose an option (1-7): ").strip()
